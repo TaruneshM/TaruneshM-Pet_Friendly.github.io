@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pet-Friendly City Initiative</title>
+    <meta name="description" content="Join our movement to create safer urban spaces for street animals">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
+    <link rel="icon" href="Asset/pet.jpeg" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&family=Pacifico&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="main-nav">
+        <div class="nav-container">
+            <a href="#" class="logo">Pet-Friendly City</a>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#volunteer">Volunteer</a></li>
+                <li><a href="#stories">Stories</a></li>
+                <li><a href="#pets">Adopt</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <button class="mobile-menu-btn">
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero">
+        <div class="hero-content">
+            <h1>Building Compassionate Cities <span>One Paw at a Time</span></h1>
+            <p class="tagline">Join our movement to make urban spaces safer for our furry neighbors</p>
+            <div class="cta-buttons">
+                <a href="#volunteer" class="btn primary-btn">Join Us</a>
+                <a href="#pets" class="btn secondary-btn">Meet Our Pets</a>
+            </div>
+        </div>
+        <div class="hero-dogs">
+            <img src="Asset/Happy.jpg" alt="Happy dogs" class="hero-image">
+        </div>
+    </header>
+
+    <!-- About Section -->
+    <section id="about" class="section about-section">
+        <div class="section-container">
+            <h2 class="section-title">Our Mission</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>Pet-Friendly City began when a group of college students noticed the struggles of street animals in their neighborhood. What started as a small feeding initiative has grown into a city-wide movement.</p>
+                    <p>We believe that compassion for animals makes us better humans. Our programs focus on sustainable solutions that benefit both animals and communities.</p>
+                    <ul class="impact-stats">
+                        <li><strong>5,000+</strong> animals fed monthly</li>
+                        <li><strong>1,200+</strong> rescues to date</li>
+                        <li><strong>300+</strong> successful adoptions</li>
+                        <li><strong>15</strong> community partnerships</li>
+                    </ul>
+                </div>
+                <div class="about-image">
+                    <img src="Asset/Rescue.jpg" alt="Our team with rescued dogs">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Volunteer Form -->
+    <section id="volunteer" class="section volunteer-section">
+        <div class="section-container">
+            <h2 class="section-title">Be the Change</h2>
+            <p class="section-subtitle">We need passionate people like you!</p>
+            
+            <form id="volunteerForm" class="volunteer-form">
+                <div class="form-group">
+                    <label for="name">Your Name</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="phone">Phone (optional)</label>
+                    <input type="tel" id="phone" name="phone">
+                </div>
+                
+                <div class="form-group">
+                    <label for="city">City</label>
+                    <select id="city" name="city" required>
+                        <option value="">Select your city</option>
+                        <option value="mumbai">Mumbai</option>
+                        <option value="delhi">Delhi</option>
+                        <option value="bangalore">Bangalore</option>
+                        <option value="other">Other</option>
+                    </select>
+                </div>
+                
+                <div class="form-group">
+                    <label>How would you like to help?</label>
+                    <div class="checkbox-group">
+                        <label class="checkbox-label">
+                            <input type="checkbox" name="help-type" value="feeding"> 
+                            <span>Street Feeding</span>
+                        </label>
+                        <label class="checkbox-label">
+                            <input type="checkbox" name="help-type" value="rescue"> 
+                            <span>Rescue Operations</span>
+                        </label>
+                        <label class="checkbox-label">
+                            <input type="checkbox" name="help-type" value="foster"> 
+                            <span>Fostering</span>
+                        </label>
+                        <label class="checkbox-label">
+                            <input type="checkbox" name="help-type" value="events"> 
+                            <span>Event Volunteering</span>
+                        </label>
+                    </div>
+                </div>
+                
+                <div class="form-group">
+                    <label for="message">Anything else we should know?</label>
+                    <textarea id="message" name="message" rows="3"></textarea>
+                </div>
+                
+                <button type="submit" class="btn submit-btn">Submit Application</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Success Stories -->
+    <section id="stories" class="section stories-section">
+        <div class="section-container">
+            <h2 class="section-title">Tail of Hope</h2>
+            <p class="section-subtitle">Our community's success stories</p>
+            
+            <div class="story-cards">
+                <article class="story-card">
+                    <img src="Asset/Transformation.jpeg" alt="Rescue transformation">
+                    <div class="story-content">
+                        <h3>From Streets to Sofa: Bruno's Journey</h3>
+                        <p>Found injured near a construction site, Bruno underwent 3 months of rehabilitation before finding his forever home with the Mehta family.</p>
+                        <a href="#" class="read-more">Read full story →</a>
+                    </div>
+                </article>
+                
+                <article class="story-card">
+                    <img src="Asset/Cat.jpg" alt="Community cats">
+                    <div class="story-content">
+                        <h3>Community Cat Program Success</h3>
+                        <p>Our TNR initiative in Andheri East has stabilized the local cat population while reducing complaints by 72%.</p>
+                        <a href="#" class="read-more">Read full story →</a>
+                    </div>
+                </article>
+                
+                <article class="story-card">
+                    <img src="Asset/Kids.jpg
+                    " alt="Kids volunteering">
+                    <div class="story-content">
+                        <h3>Young Changemakers</h3>
+                        <p>How a group of 8th graders started a feeding program at their school, inspiring others in their community.</p>
+                        <a href="#" class="read-more">Read full story →</a>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pets for Adoption -->
+    <section id="pets" class="section pets-section">
+        <div class="section-container">
+            <h2 class="section-title">Paws Looking for Homes</h2>
+            <p class="section-subtitle">Meet our wonderful friends ready for adoption</p>
+            
+            <div class="pet-carousel">
+                <div class="pet-card">
+                    <div class="pet-image">
+                        <img src="Asset/Proxy.jpg" alt="Proxy the dog">
+                        <span class="pet-tag">Vaccinated</span>
+                    </div>
+                    <div class="pet-info">
+                        <h3>Proxy</h3>
+                        <p class="pet-breed">Indian Pariah • Female • 3 months</p>
+                        <p class="pet-desc">Friendly and energetic, loves playtime and gets along with children.</p>
+                        <div class="pet-meta">
+                            <span><i class="fas fa-map-marker-alt"></i> Mumbai</span>
+                            <span><i class="fas fa-heart"></i> Good with kids</span>
+                        </div>
+                        <button class="btn adopt-btn">Meet Buddy</button>
+                    </div>
+                </div>
+                
+                <div class="pet-card">
+                    <div class="pet-image">
+                        <img src="Asset/Misty.webp" alt="Misty the cat">
+                        <span class="pet-tag">Spayed</span>
+                    </div>
+                    <div class="pet-info">
+                        <h3>Misty</h3>
+                        <p class="pet-breed">Domestic Short Hair • Female • 1.5 years</p>
+                        <p class="pet-desc">Gentle and affectionate, prefers calm environments.</p>
+                        <div class="pet-meta">
+                            <span><i class="fas fa-map-marker-alt"></i> Delhi</span>
+                            <span><i class="fas fa-heart"></i> Lap cat</span>
+                        </div>
+                        <button class="btn adopt-btn">Meet Misty</button>
+                    </div>
+                </div>
+                
+                <div class="pet-card">
+                    <div class="pet-image">
+                        <img src="Asset/Rocky.jpeg" alt="Rocky the dog">
+                        <span class="pet-tag">Neutered</span>
+                    </div>
+                    <div class="pet-info">
+                        <h3>Rocky</h3>
+                        <p class="pet-breed">Mixed Breed • Male • 4 months</p>
+                        <p class="pet-desc">Loyal companion, knows basic commands and loves long walks.</p>
+                        <div class="pet-meta">
+                            <span><i class="fas fa-map-marker-alt"></i> Bangalore</span>
+                            <span><i class="fas fa-heart"></i> Leash trained</span>
+                        </div>
+                        <button class="btn adopt-btn">Meet Rocky</button>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="section-footer">
+                <a href="#" class="btn view-all-btn">View All Available Pets</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section contact-section">
+        <div class="section-container">
+            <h2 class="section-title">Get in Touch</h2>
+            
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Let's Collaborate</h3>
+                    <p>Have questions or want to partner with us? Reach out through any of these channels:</p>
+                    
+                    <ul class="contact-methods">
+                        <li>
+                            <i class="fas fa-envelope"></i>
+                            <span>hello@Pet-Friendly.org</span>
+                        </li>
+                        <li>
+                            <i class="fas fa-phone-alt"></i>
+                            <span>+91 344234324</span>
+                        </li>
+                        <li>
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>123 Animal Care Lane, Mumbai 400001</span>
+                        </li>
+                    </ul>
+                    
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+                
+                <div class="contact-form">
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <input type="text" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" placeholder="Email" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" placeholder="Subject">
+                        </div>
+                        <div class="form-group">
+                            <textarea placeholder="Your Message" rows="4" required></textarea>
+                        </div>
+                        <button type="submit" class="btn submit-btn">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Chatbot Widget -->
+    <div class="chatbot-widget">
+        <button class="chatbot-toggle">
+            <i class="fas fa-paw"></i>
+            <span>Ask Buddy</span>
+        </button>
+        <div class="chatbot-container">
+            <div class="chatbot-header">
+                <h4>Buddy Assistant</h4>
+                <button class="close-chatbot"><i class="fas fa-times"></i></button>
+            </div>
+            <div class="chatbot-messages">
+                <div class="bot-message">
+                    <p>Hi there! I'm Buddy 🐾 How can I help you today?</p>
+                </div>
+            </div>
+            <div class="chatbot-input">
+                <input type="text" placeholder="Type your question...">
+                <button class="send-btn"><i class="fas fa-paper-plane"></i></button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="main-footer">
+        <div class="footer-container">
+            <div class="footer-brand">
+                <a href="#" class="logo">Pet-Friendly City</a>
+                <p>Creating compassionate communities for animals and humans alike.</p>
+            </div>
+            
+            <div class="footer-links">
+                <div class="footer-column">
+                    <h4>About</h4>
+                    <ul>
+                        <li><a href="#">Our Story</a></li>
+                        <li><a href="#">Team</a></li>
+                        <li><a href="#">Partners</a></li>
+                        <li><a href="#">Financials</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-column">
+                    <h4>Get Involved</h4>
+                    <ul>
+                        <li><a href="#">Volunteer</a></li>
+                        <li><a href="#">Foster</a></li>
+                        <li><a href="#">Donate</a></li>
+                        <li><a href="#">Internships</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-column">
+                    <h4>Resources</h4>
+                    <ul>
+                        <li><a href="#">Pet Care Guides</a></li>
+                        <li><a href="#">TNR Information</a></li>
+                        <li><a href="#">Emergency Contacts</a></li>
+                        <li><a href="#">FAQ</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        
+        <div class="footer-bottom">
+            <p>&copy; 2025 Pet-Friendly City. Inspired by <a href="https://collegetips.in/pfc/" target="_blank">CollegeTips.in PFC</a>.</p>
+            <p>Made with <i class="fas fa-heart"></i> by animal lovers</p>
+        </div>
+    </footer>
+
+    <script src="main.js"></script>
+    <script src="chatbot.js"></script>
+</body>
+</html>
